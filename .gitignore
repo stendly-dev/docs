@@ -1,0 +1,21 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.dockerignore
+Dockerfile.reproducible
+package-lock.json
+pnpm-lock.yaml
+docs.Dockerfile
+yarn.lock
+nginx-docs.conf

@@ -1,0 +1,45 @@
+/**
+ * Stendly Documentation Theme
+ * Based on Stendly brand colors: accent purple #6c5ce7, dark bg #050507
+ */
+
+:root {
+    --ifm-color-primary: #6c5ce7;
+    --ifm-color-primary-dark: #5a4bd4;
+    --ifm-color-primary-darker: #4f3fc9;
+    --ifm-color-primary-darkest: #3d2fb5;
+    --ifm-color-primary-light: #7e70ea;
+    --ifm-color-primary-lighter: #9084ed;
+    --ifm-color-primary-lightest: #a498f0;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(108, 92, 231, 0.1);
+    --ifm-font-family-base: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', monospace;
+    --ifm-navbar-background-color: #ffffff;
+    --ifm-background-color: #ffffff;
+}
+
+[data-theme='dark'] {
+    --ifm-color-primary: #6c5ce7;
+    --ifm-color-primary-dark: #5a4bd4;
+    --ifm-color-primary-darker: #4f3fc9;
+    --ifm-color-primary-darkest: #3d2fb5;
+    --ifm-color-primary-light: #7e70ea;
+    --ifm-color-primary-lighter: #9084ed;
+    --ifm-color-primary-lightest: #a498f0;
+    --docusaurus-highlighted-code-line-bg: rgba(108, 92, 231, 0.2);
+    --ifm-navbar-background-color: #0c0c0f;
+    --ifm-background-color: #050507;
+    --ifm-background-surface-color: #0c0c0f;
+    --ifm-footer-background-color: #0c0c0f;
+    --ifm-toc-border-color: #1e1e24;
+    --ifm-color-emphasis-200: #1e1e24;
+}
+
+.navbar {
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.footer {
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+}
